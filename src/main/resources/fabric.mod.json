@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "carryingspeaker",
+	"version": "${version}",
+	"name": "肩扛音响 - Carrying a speaker on the shoulder",
+	"description": "在游戏内用指令让网易云音乐在后台播放单曲/歌单（支持分享链接）；低血量、死亡时自动播放本地音乐，可配置起播位置与最短播放时长；OP 可为其他玩家点歌（需对方确认）。",
+	"authors": [
+		"Menatarli"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/carryingspeaker/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.menatarli.ncmplayer.NcmCommonMod"
+		],
+		"client": [
+			"com.menatarli.ncmplayer.NcmClientMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
